@@ -7,13 +7,25 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile.jpg" alt="Thiago Rossener" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Hi there 👋 <img src="https://emojis.slackmojis.com/emojis/images/1588866973/8934/hellokittydance.gif?1588866973" alt="Hi" width="42" />
+
+- 😄 I’m currently a student majoring in Software Engineering in SCU, a SDE intern at Microsoft
+- 🌱 I’m currently learning Distributed System, Cloud Computing, Database System, Natural Language Processing, Recommender Systemsm
+- 🥳 CV/Resume: [https://tinyurl.com/Resume-Zhenglin-Li](https://tinyurl.com/Resume-Zhenglin-Li)
+- 🤣 Personal website: [https://zhenglinli.me/](https://zhenglinli.me/)
+- 😎 Languages and Tools: C++, Go, Java, C#, Python, HTML/CSS, JavaScript, SQL, Bash, PowerShell, AWS, Docker, MySQL, Redis, MongoDB, SQLite, Elasticsearch, Kafka, Git, Linux, Django, React, Spring Boot, MyBatis, Maven, Node.JS
+- 📫 How to reach me: [lizhenglin2001@gmail.com](lizhenglin2001@gmail.com)
+<!-- - 👊 Pronouns: he/him/his -->
+- 💬 Ask me about anything
+- 🐼 Full-time panda and part-time coder
+- 💔 Still single
+- ⚡ Fun fact:
+  - 💦 have lost weight for more than 13 KG
+  - 👀 been to more than 5 countries
+  - 😽 keeping a cat
+  - 👪 live in a happy family
+  - 🏃 want to be a runner
