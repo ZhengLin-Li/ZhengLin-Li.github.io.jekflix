@@ -16,5 +16,4 @@ We can determine that sqlancer/yugabyte/ysql/YSQLSchema.java is per database lev
 
 So we can run a `SELECT yb_is_database_colocated();` query on it to tell if it is a collocated database. The query will result in a 'f' for a non-colocated database.
 
-
-
+Final PR: https://github.com/sqlancer/sqlancer/pull/795
