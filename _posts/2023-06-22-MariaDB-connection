@@ -1,0 +1,7 @@
+```bash
+sudo apt update
+sudo apt install mariadb-server
+sudo service mysql start
+sudo mysql -uroot -proot -e "CREATE USER 'sqlancer'@'localhost' IDENTIFIED BY 'sqlancer'; GRANT ALL PRIVILEGES ON * . * TO 'sqlancer'@'localhost';"
+MARIADB_AVAILABLE=true mvn -Dtest=TestMariaDB test
+```
