@@ -5,3 +5,33 @@ sudo service mysql start
 sudo mysql -uroot -proot -e "CREATE USER 'sqlancer'@'localhost' IDENTIFIED BY 'sqlancer'; GRANT ALL PRIVILEGES ON * . * TO 'sqlancer'@'localhost';"
 MARIADB_AVAILABLE=true mvn -Dtest=TestMariaDB test
 ```
+
+
+```sql
+DROP DATABASE IF EXISTS database86;
+CREATE DATABASE database86;
+USE database86;
+CREATE OR REPLACE TABLE t0(c0 BIGINT  PRIMARY KEY NOT NULL) engine=MyISAM;
+CREATE OR REPLACE TABLE t1(c0 VARCHAR(100)  NOT NULL, c1 CHAR(100)  UNIQUE NOT NULL);
+CREATE TABLE IF NOT EXISTS t2 LIKE t1;
+SET SESSION max_seeks_for_key = 1558795613982533937;
+SET SESSION optimizer_search_depth = 54;
+INSERT INTO t2 VALUES (NULL, '');
+SET SESSION max_length_for_sort_data = 5443516;
+SET SESSION join_buffer_size = 7226038701061426560;
+CHECKSUM TABLE t1 EXTENDED;
+SET SESSION sql_buffer_result = ON;
+SET SESSION max_length_for_sort_data = 5624910;
+SET SESSION optimizer_switch = 'firstmatch=on';
+ANALYZE TABLE t1, t0;
+SET SESSION max_sp_recursion_depth = 2;
+SET SESSION optimizer_prune_level = 1;
+SET SESSION max_sort_length = 2504475;
+SET SESSION sql_quote_show_create = ON;
+SET SESSION big_tables = OFF;
+UPDATE LOW_PRIORITY IGNORE t0 SET c0='	';
+REPAIR TABLE t2, t0, t1;
+SET SESSION max_seeks_for_key = 3658634725944953767;
+
+OPTIMIZE TABLE t1, t0 NOWAIT;
+```
